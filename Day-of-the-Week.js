@@ -25,7 +25,11 @@ switch (day)
     case("Saturday"):
     console.log("Run");
             break;
+    
+    case("Sunday"):
+    console.log("Sleep Walk");
+            break;
 
     default:
-    console.log("Sleep Walk");
+    console.log("There is no such day");
 }
